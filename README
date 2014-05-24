@@ -1,0 +1,30 @@
+steveschmidt
+hw3
+
+***************
+*** SOLVERS ***
+***************
+
+This program runs a set of iterative solvers for Crank Nicholson scheme for the 3D Heat Equation. It assumes constant boundary conditions which could easily be made into other Dirichelet constants if needed. The input file is parameters which is supplied as well. 
+
+
+**************
+*** Jacobi ***
+**************
+
+The first is the Jacobi method, which has the longest total and per time step run time.
+
+********************
+*** Gauss-Seidel ***
+********************
+
+The GS method brings iteration convergence into consideration during each time step which cuts the total simulation time greatly.
+
+
+*******************************
+*** Success Over Relaxation ***
+*******************************
+
+The SOR method competes with GSM, will be investigating the simulation on various pre-conditioners which may factor (probably will) into the overall speed.
+
+

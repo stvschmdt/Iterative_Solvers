@@ -1,0 +1,9 @@
+100    // x-matrix dimensions
+100   // y-matrix dimensions
+100    // z-matrix dimensions
+1.0    // x-axis physical Domain Length
+1.0    // y-axis physical Domain Length
+1.0    // z-axis physical Domain Length
+0.02   // alpha
+0.05   // Timestep length
+1000    // Number of timesteps
